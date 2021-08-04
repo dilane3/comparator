@@ -4,6 +4,20 @@ This module provide to you some methods that you may use to handle some comparis
 
 ## First step: Initialize the comparator
 
+### Installation
+
+```bash
+npm install easy-comparator
+
+```
+or
+```bash
+npm i easy-comparator
+
+```
+
+### Initialization
+
 Firstly you must import the module like this
 ```javascript
 import Comparator from 'comparator'

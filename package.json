@@ -1,12 +1,15 @@
 {
-  "name": "comparator",
+  "name": "easy-comparator",
   "version": "1.0.0",
   "description": "This is a number or string comparator",
-  "main": "Comparator.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "comparator",
+    "operators"
+  ],
   "author": "dilane3",
   "license": "ISC",
   "devDependencies": {
