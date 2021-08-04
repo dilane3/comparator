@@ -37,7 +37,7 @@ const compare = new Comparator()
 ## Second Step: Using the comparator
 we have some methods like: equal(a, b), lessThan(a, b), greaterThan(a, b), lessThanOrEqual(a, b), greatherThan(a, b)
 
-### equal method
+### equal
 This method takes two parameters (number or string) and returns a boolean
 
 ```javascript
@@ -53,7 +53,7 @@ compare.equal(str1, str2) // true
 
 ```
 
-### lessThan metho
+### lessThan
 This method takes two parameters (number) and returns a boolean
 
 ```javascript
@@ -64,7 +64,7 @@ compare.lessThan(a, b) // true
 
 ```
 
-### greaterThan metho
+### greaterThan
 This method takes two parameters (number) and returns a boolean
 
 ```javascript
@@ -75,7 +75,7 @@ compare.greaterThan(a, b) // false
 
 ```
 
-### lessThanOrEqual metho
+### lessThanOrEqual
 This method takes two parameters (number) and returns a boolean
 
 ```javascript
@@ -90,7 +90,7 @@ compare.lessThanOrEqual(b, d) // false
 
 ```
 
-### greaterThanOrEqual metho
+### greaterThanOrEqual
 This method takes two parameters (number) and returns a boolean
 
 ```javascript
