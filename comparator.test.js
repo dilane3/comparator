@@ -1,4 +1,4 @@
-const Comparator = require("./Comparator.js")
+const Comparator = require("./index.js")
 
 // comparison suite test
 describe("Comparator", () => {
@@ -23,6 +23,7 @@ describe("Comparator", () => {
 
     // less or equal comparison
     expect(compare.lessThanOrEqual(b, c)).toBe(true)
+    expect(compare.lessThanOrEqual(a, c)).toBe(true)
   })
 
   // test on strings variables
